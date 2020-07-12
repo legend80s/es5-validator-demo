@@ -1,0 +1,26 @@
+{
+  "name": "es5-validator-demo",
+  "version": "1.0.0",
+  "description": "demo for https://www.npmjs.com/package/es5-validator",
+  "main": "es5.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:es5": "es5-validator es5.js",
+    "lint:es6": "es5-validator es6.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legend80s/es5-validator-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/legend80s/es5-validator-demo/issues"
+  },
+  "homepage": "https://github.com/legend80s/es5-validator-demo#readme",
+  "devDependencies": {
+    "es5-validator": "^1.0.1",
+    "git-commit-msg-linter": "^2.4.4"
+  }
+}
